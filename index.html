@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style></style>
+  </head>
+  <body>
+    <section>
+      <div class="card">
+        <aside class="side">
+          <h4>Your Result</h4>
+          <div class="circle">
+            <span><h1>76</h1></span>
+            <span><p>of 100</p></span>
+          </div>
+          <div class="text-container">
+            <h2>Great</h2>
+            <p>
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </aside>
+        <div class="summary">
+          <h4>Summary</h4>
+          <button
+            class="tag"
+            style="
+              background-color: hsla(0, 100%, 67%, 0.06);
+              color: hsl(0, 100%, 67%);
+            "
+          >
+            <div>
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt="lightening icon"
+                width="16px"
+                height="16px"
+              />
+              <h6>Reaction</h6>
+            </div>
+            <p style="color: hsl(224, 30%, 27%)">
+              80 <span style="color: hsla(224, 30%, 27%, 0.59)">/ 100</span>
+            </p>
+          </button>
+          <button
+            class="tag"
+            style="
+              background-color: hsla(39, 100%, 56%, 0.06);
+              color: hsl(39, 100%, 56%);
+            "
+          >
+            <div>
+              <img
+                src="./assets/images/icon-memory.svg"
+                alt="brain icon"
+                width="16px"
+                height="16px"
+              />
+              <h6>Memory</h6>
+            </div>
+            <p style="color: hsl(224, 30%, 27%)">
+              92 <span style="color: hsla(224, 30%, 27%, 0.59)">/ 100</span>
+            </p>
+          </button>
+          <button
+            class="tag"
+            style="
+              background-color: hsla(166, 100%, 37%, 0.06);
+              color: hsl(166, 100%, 37%);
+            "
+          >
+            <div>
+              <img
+                src="./assets/images/icon-verbal.svg"
+                alt="chat bubble icon"
+                width="16px"
+                height="16px"
+              />
+              <h6>Verbal</h6>
+            </div>
+            <p style="color: hsl(224, 30%, 27%)">
+              61 <span style="color: hsla(224, 30%, 27%, 0.59)">/ 100</span>
+            </p>
+          </button>
+          <button
+            class="tag"
+            style="
+              background-color: hsla(234, 85%, 45%, 0.06);
+              color: hsl(234, 85%, 45%);
+            "
+          >
+            <div>
+              <img
+                src="./assets/images/icon-visual.svg"
+                alt="eye icon"
+                width="16px"
+                height="16px"
+              />
+              <h6>Visual</h6>
+            </div>
+            <p style="color: hsl(224, 30%, 27%)">
+              72 <span style="color: hsla(224, 30%, 27%, 0.59)">/ 100</span>
+            </p>
+          </button>
+          <button class="button">Continue</button>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >.<br />
+        Coded by <a href="https://georgeikoro.framer.website/">George Ikoro</a>.
+      </div>
+    </section>
+  </body>
+</html>
